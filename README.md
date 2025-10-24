@@ -13,11 +13,14 @@ To get started, install:
 ### 1) Execute the following script
 
 ```bash
-  python3 DeepSeek-V3.2-exp-ptpc/inference/dpsk3.2exp_2_quark_ptpc.py --input_fp8_hf_path path_a  --output_fp8_hf_path_ptpc path_b
+  python3 DeepSeek-V3.2-exp-ptpc/inference/dpsk3.2exp_2_quark_ptpc.py --input-fp8-hf-path path_a  --output-fp8-hf-path-ptpc path_b
 ```
 
-### 2) Modify and move config.json to the folder where the exported model is located.
+### 2) move *.json and *py from original model floder to the folder where the exported model is located.
+
+### 3) Modify and move config.json to the folder where the exported model is located.
 
 ```bash
   cp DeepSeek-V3.2-exp-ptpc/config.json path_b
 ```
+
