@@ -16,7 +16,7 @@ To get started, install:
   python3 DeepSeek-V3.2-exp-ptpc/inference/dpsk3.2exp_2_quark_ptpc.py --input-fp8-hf-path path_a  --output-fp8-hf-path-ptpc path_b
 ```
 
-### 2) copy *.json and *py from the original model folder to the folder where the exported model is located.
+### 2) copy *.json(model.safetensors.index.json will be regenerated. Please be careful not to overwrite it.) and *py from the original model folder to the folder where the exported model is located.
 
 ### 3) Modify and copy config.json to the folder where the exported model is located.
 
